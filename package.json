@@ -1,0 +1,15 @@
+{
+  "name": "todo-and-subtodo",
+  "version": "1.0.0",
+  "description": "todo and sub todos with js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo",
+    "js"
+  ],
+  "author": "Fabian Pacherres",
+  "license": "MIT"
+}
