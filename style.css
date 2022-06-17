@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+    place-content: center;
+    background-color: #cdfdfd;
+}
+
+.container-table {
+    width: 800px;
+}
+
+.container-title, .item-header {
+    padding: 30px 0;
+    border-bottom: 1px #8cc9c9 solid;
+    border-top: 1px #8cc9c9 solid;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top: 50px;
+}
+.item-header {
+    margin-top: 20px;
+    padding: 10px 0 !important;
+}
+.container-title input {
+    width: 400px;
+    outline: none;
+    border: none;
+    background-color: #4defb9;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.container-title input::placeholder {
+    color: white;
+}
+.item-header {
+    padding : 25px 0 5px;
+}
+.item-hidden {
+    /* display:none; */
+}
+.container-content {
+    display:flex;
+    flex-direction:column; 
+    gap: 20px ;  
+    padding: 50px 0; 
+    box-sizing: border-box;
+    margin: 0px;
+}
+ul {
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+.item-container {
+    padding:20px 0 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items:flex-end;
+}
+.item-list {
+    background-color: #6be7e7;
+    color: #fff;
+    display: grid;
+    align-items: center;
+    font-size: 14px;
+    width: 100%;
+    grid-template-columns: 1fr repeat(2, auto);
+    padding: 5px 20px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+.btn-second {
+    background-color: #3fc1c1;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 20px;
+    border-radius: 20px;
+    margin-top: 1px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.item-list-sub {
+    font-size:12px;
+    padding: 0px 20px;
+    width:90%;
+}
+.btn {
+    outline: none;
+    font-size: 16px;
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    background-color: #fbb291;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btnAdd {
+    outline: none;
+    font-size: 14px;
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    background-color: #fbb291;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
